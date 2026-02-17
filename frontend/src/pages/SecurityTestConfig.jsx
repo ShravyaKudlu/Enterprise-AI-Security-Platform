@@ -16,7 +16,7 @@ const AVAILABLE_MODELS = [
   { adapter: 'anthropic', model: 'claude-3-opus-20240229', name: 'Claude 3 Opus', type: 'public' },
   { adapter: 'anthropic', model: 'claude-3-sonnet', name: 'Claude 3 Sonnet', type: 'public' },
   { adapter: 'google', model: 'gemini-1.5-pro', name: 'Gemini Pro', type: 'public' },
-  { adapter: 'ollama', model: 'llama3', name: 'Llama 3 (Local)', type: 'local' },
+  { adapter: 'ollama', model: 'llama3.2', name: 'Llama 3.2 (Local)', type: 'local' },
   { adapter: 'ollama', model: 'mistral', name: 'Mistral (Local)', type: 'local' }
 ]
 
