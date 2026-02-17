@@ -1,0 +1,332 @@
+2026-02-17 14:27:41,388 - asyncio - DEBUG - Using selector: EpollSelector
+2026-02-17 14:27:41,398 - app.core.logging - INFO - Starting up Enterprise AI Security Platform
+2026-02-17 14:27:41,398 - app.core.db - INFO - Database tables created
+2026-02-17 14:27:41,399 - app.seed_data - INFO - Seeding attack scenarios...
+2026-02-17 14:27:59,921 - asyncio - DEBUG - Using selector: EpollSelector
+2026-02-17 14:27:59,932 - app.core.logging - INFO - Starting up Enterprise AI Security Platform
+2026-02-17 14:27:59,933 - app.core.logging - INFO - Database tables created
+2026-02-17 14:27:59,934 - app.seed_data - INFO - Seeding attack scenarios...
+2026-02-17 14:28:58,068 - asyncio - DEBUG - Using selector: EpollSelector
+2026-02-17 14:28:58,080 - app.core.logging - INFO - Starting up Enterprise AI Security Platform
+2026-02-17 14:28:58,153 - app.core.logging - INFO - Database tables created
+2026-02-17 14:28:58,153 - app.seed_data - INFO - Seeding attack scenarios...
+2026-02-17 14:28:58,207 - app.seed_data - INFO - Created scenario S-001: Enterprise Data Isolation Testing
+2026-02-17 14:28:58,214 - app.seed_data - INFO - Created scenario S-002: Cross-User Information Leakage
+2026-02-17 14:28:58,218 - app.seed_data - INFO - Created scenario S-003: Training Data Extraction
+2026-02-17 14:28:58,222 - app.seed_data - INFO - Created scenario S-004: Context Boundary Violation
+2026-02-17 14:28:58,225 - app.seed_data - INFO - Created scenario S-005: System Prompt Leakage
+2026-02-17 14:28:58,231 - app.seed_data - INFO - Scenario seeding complete
+2026-02-17 14:29:12,581 - app.core.logging - INFO - Shutting down
+2026-02-17 14:30:04,341 - asyncio - DEBUG - Using selector: EpollSelector
+2026-02-17 14:30:04,352 - app.core.logging - INFO - Starting up Enterprise AI Security Platform
+2026-02-17 14:30:04,353 - app.core.logging - INFO - Database tables created
+2026-02-17 14:30:04,353 - app.seed_data - INFO - Seeding attack scenarios...
+2026-02-17 14:30:04,368 - app.seed_data - INFO - Scenario S-001 already exists, skipping
+2026-02-17 14:30:04,369 - app.seed_data - INFO - Scenario S-002 already exists, skipping
+2026-02-17 14:30:04,370 - app.seed_data - INFO - Scenario S-003 already exists, skipping
+2026-02-17 14:30:04,370 - app.seed_data - INFO - Scenario S-004 already exists, skipping
+2026-02-17 14:30:04,370 - app.seed_data - INFO - Scenario S-005 already exists, skipping
+2026-02-17 14:30:04,371 - app.seed_data - INFO - Scenario seeding complete
+2026-02-17 14:32:11,816 - app.core.logging - INFO - Shutting down
+2026-02-17 14:33:54,950 - asyncio - DEBUG - Using selector: EpollSelector
+2026-02-17 14:33:54,960 - app.core.logging - INFO - Starting up Enterprise AI Security Platform
+2026-02-17 14:33:54,962 - app.core.logging - INFO - Database tables created
+2026-02-17 14:33:54,962 - app.seed_data - INFO - Seeding attack scenarios...
+2026-02-17 14:33:54,977 - app.seed_data - INFO - Scenario S-001 already exists, skipping
+2026-02-17 14:33:54,978 - app.seed_data - INFO - Scenario S-002 already exists, skipping
+2026-02-17 14:33:54,978 - app.seed_data - INFO - Scenario S-003 already exists, skipping
+2026-02-17 14:33:54,979 - app.seed_data - INFO - Scenario S-004 already exists, skipping
+2026-02-17 14:33:54,979 - app.seed_data - INFO - Scenario S-005 already exists, skipping
+2026-02-17 14:33:54,979 - app.seed_data - INFO - Scenario seeding complete
+2026-02-17 14:35:41,894 - app.services.test_orchestrator - INFO - Created security test 1: Test1
+2026-02-17 14:35:41,917 - app.services.variant_generator - INFO - Generated 2 variants for prompt 16
+2026-02-17 14:35:41,932 - app.services.test_orchestrator - INFO - Prepared 2 model runs for test 1
+2026-02-17 14:36:48,722 - app.core.logging - INFO - Shutting down
+2026-02-17 14:37:06,420 - asyncio - DEBUG - Using selector: EpollSelector
+2026-02-17 14:37:06,432 - app.core.logging - INFO - Starting up Enterprise AI Security Platform
+2026-02-17 14:37:06,433 - app.core.logging - INFO - Database tables created
+2026-02-17 14:37:06,434 - app.seed_data - INFO - Seeding attack scenarios...
+2026-02-17 14:37:06,448 - app.seed_data - INFO - Scenario S-001 already exists, skipping
+2026-02-17 14:37:06,449 - app.seed_data - INFO - Scenario S-002 already exists, skipping
+2026-02-17 14:37:06,449 - app.seed_data - INFO - Scenario S-003 already exists, skipping
+2026-02-17 14:37:06,450 - app.seed_data - INFO - Scenario S-004 already exists, skipping
+2026-02-17 14:37:06,450 - app.seed_data - INFO - Scenario S-005 already exists, skipping
+2026-02-17 14:37:06,450 - app.seed_data - INFO - Scenario seeding complete
+2026-02-17 14:37:10,967 - app.core.logging - INFO - Shutting down
+2026-02-17 14:37:16,306 - asyncio - DEBUG - Using selector: EpollSelector
+2026-02-17 14:37:16,322 - app.core.logging - INFO - Starting up Enterprise AI Security Platform
+2026-02-17 14:37:16,323 - app.core.logging - INFO - Database tables created
+2026-02-17 14:37:16,324 - app.seed_data - INFO - Seeding attack scenarios...
+2026-02-17 14:37:16,338 - app.seed_data - INFO - Scenario S-001 already exists, skipping
+2026-02-17 14:37:16,338 - app.seed_data - INFO - Scenario S-002 already exists, skipping
+2026-02-17 14:37:16,338 - app.seed_data - INFO - Scenario S-003 already exists, skipping
+2026-02-17 14:37:16,339 - app.seed_data - INFO - Scenario S-004 already exists, skipping
+2026-02-17 14:37:16,339 - app.seed_data - INFO - Scenario S-005 already exists, skipping
+2026-02-17 14:37:16,339 - app.seed_data - INFO - Scenario seeding complete
+2026-02-17 14:37:43,534 - asyncio - DEBUG - Using selector: EpollSelector
+2026-02-17 14:37:43,545 - app.core.logging - INFO - Starting up Enterprise AI Security Platform
+2026-02-17 14:37:43,546 - app.core.logging - INFO - Database tables created
+2026-02-17 14:37:43,547 - app.seed_data - INFO - Seeding attack scenarios...
+2026-02-17 14:37:43,563 - app.seed_data - INFO - Scenario S-001 already exists, skipping
+2026-02-17 14:37:43,564 - app.seed_data - INFO - Scenario S-002 already exists, skipping
+2026-02-17 14:37:43,564 - app.seed_data - INFO - Scenario S-003 already exists, skipping
+2026-02-17 14:37:43,564 - app.seed_data - INFO - Scenario S-004 already exists, skipping
+2026-02-17 14:37:43,565 - app.seed_data - INFO - Scenario S-005 already exists, skipping
+2026-02-17 14:37:43,565 - app.seed_data - INFO - Scenario seeding complete
+2026-02-17 14:37:43,565 - app.core.logging - INFO - Shutting down
+2026-02-17 14:38:14,665 - app.core.logging - INFO - Shutting down
+2026-02-17 14:38:30,992 - asyncio - DEBUG - Using selector: EpollSelector
+2026-02-17 14:38:31,003 - app.core.logging - INFO - Starting up Enterprise AI Security Platform
+2026-02-17 14:38:31,005 - app.core.logging - INFO - Database tables created
+2026-02-17 14:38:31,005 - app.seed_data - INFO - Seeding attack scenarios...
+2026-02-17 14:38:31,021 - app.seed_data - INFO - Scenario S-001 already exists, skipping
+2026-02-17 14:38:31,022 - app.seed_data - INFO - Scenario S-002 already exists, skipping
+2026-02-17 14:38:31,022 - app.seed_data - INFO - Scenario S-003 already exists, skipping
+2026-02-17 14:38:31,023 - app.seed_data - INFO - Scenario S-004 already exists, skipping
+2026-02-17 14:38:31,023 - app.seed_data - INFO - Scenario S-005 already exists, skipping
+2026-02-17 14:38:31,023 - app.seed_data - INFO - Scenario seeding complete
+2026-02-17 14:38:38,785 - app.services.test_orchestrator - INFO - Created security test 2: Test1
+2026-02-17 14:38:38,810 - app.services.variant_generator - INFO - Generated 2 variants for prompt 17
+2026-02-17 14:38:38,824 - app.services.test_orchestrator - INFO - Prepared 2 model runs for test 2
+2026-02-17 14:38:38,932 - rq.queue - DEBUG - Enqueueing job c14806f1-407c-4125-9bb5-97cb6b7fc253 to queue default (at_front=False)
+2026-02-17 14:38:38,933 - rq.queue - DEBUG - Pushed job [34mc14806f1-407c-4125-9bb5-97cb6b7fc253[39;49;00m into [32mdefault[39;49;00m
+2026-02-17 14:38:38,934 - rq.queue - DEBUG - Enqueueing job 471f93e3-7ff2-4afa-a9ad-27427c0a157e to queue default (at_front=False)
+2026-02-17 14:38:38,934 - rq.queue - DEBUG - Pushed job [34m471f93e3-7ff2-4afa-a9ad-27427c0a157e[39;49;00m into [32mdefault[39;49;00m
+2026-02-17 14:40:17,876 - app.services.test_orchestrator - INFO - Created security test 3: test2
+2026-02-17 14:40:17,887 - app.services.variant_generator - INFO - Generated 2 variants for prompt 18
+2026-02-17 14:40:17,900 - app.services.test_orchestrator - INFO - Prepared 4 model runs for test 3
+2026-02-17 14:40:17,907 - rq.queue - DEBUG - Enqueueing job 4657094f-1bf2-4e2c-b0a1-a334b29ab810 to queue default (at_front=False)
+2026-02-17 14:40:17,907 - rq.queue - DEBUG - Pushed job [34m4657094f-1bf2-4e2c-b0a1-a334b29ab810[39;49;00m into [32mdefault[39;49;00m
+2026-02-17 14:40:17,908 - rq.queue - DEBUG - Enqueueing job bff19e7f-e993-40fd-9a3a-70e9294216c4 to queue default (at_front=False)
+2026-02-17 14:40:17,909 - rq.queue - DEBUG - Pushed job [34mbff19e7f-e993-40fd-9a3a-70e9294216c4[39;49;00m into [32mdefault[39;49;00m
+2026-02-17 14:40:17,909 - rq.queue - DEBUG - Enqueueing job d313e0a0-53ac-4422-9cc5-d151534a8f98 to queue default (at_front=False)
+2026-02-17 14:40:17,910 - rq.queue - DEBUG - Pushed job [34md313e0a0-53ac-4422-9cc5-d151534a8f98[39;49;00m into [32mdefault[39;49;00m
+2026-02-17 14:40:17,911 - rq.queue - DEBUG - Enqueueing job 417f7c19-8ef6-4c8f-9394-498e3785c7c8 to queue default (at_front=False)
+2026-02-17 14:40:17,912 - rq.queue - DEBUG - Pushed job [34m417f7c19-8ef6-4c8f-9394-498e3785c7c8[39;49;00m into [32mdefault[39;49;00m
+2026-02-17 14:42:19,846 - app.services.test_orchestrator - INFO - Created security test 4: test5
+2026-02-17 14:42:19,866 - app.services.variant_generator - INFO - Generated 2 variants for prompt 19
+2026-02-17 14:42:19,873 - app.services.test_orchestrator - INFO - Prepared 6 model runs for test 4
+2026-02-17 14:42:19,877 - rq.queue - DEBUG - Enqueueing job f1a1a78a-d70b-4ef0-90f4-ebbb396b2b8b to queue default (at_front=False)
+2026-02-17 14:42:19,877 - rq.queue - DEBUG - Pushed job [34mf1a1a78a-d70b-4ef0-90f4-ebbb396b2b8b[39;49;00m into [32mdefault[39;49;00m
+2026-02-17 14:42:19,878 - rq.queue - DEBUG - Enqueueing job 7001cf79-9c44-4b3a-b275-b9c893ca6f64 to queue default (at_front=False)
+2026-02-17 14:42:19,878 - rq.queue - DEBUG - Pushed job [34m7001cf79-9c44-4b3a-b275-b9c893ca6f64[39;49;00m into [32mdefault[39;49;00m
+2026-02-17 14:42:19,878 - rq.queue - DEBUG - Enqueueing job 230eca4f-2a05-4545-b07e-65e8a22bc1b4 to queue default (at_front=False)
+2026-02-17 14:42:19,879 - rq.queue - DEBUG - Pushed job [34m230eca4f-2a05-4545-b07e-65e8a22bc1b4[39;49;00m into [32mdefault[39;49;00m
+2026-02-17 14:42:19,879 - rq.queue - DEBUG - Enqueueing job d5f21ef2-8777-45f2-8a6c-7a978f930f3e to queue default (at_front=False)
+2026-02-17 14:42:19,879 - rq.queue - DEBUG - Pushed job [34md5f21ef2-8777-45f2-8a6c-7a978f930f3e[39;49;00m into [32mdefault[39;49;00m
+2026-02-17 14:42:19,880 - rq.queue - DEBUG - Enqueueing job 6655ecb1-3bc4-4da9-83cb-fe2f8893a3ea to queue default (at_front=False)
+2026-02-17 14:42:19,880 - rq.queue - DEBUG - Pushed job [34m6655ecb1-3bc4-4da9-83cb-fe2f8893a3ea[39;49;00m into [32mdefault[39;49;00m
+2026-02-17 14:42:19,880 - rq.queue - DEBUG - Enqueueing job b1e80c2a-e030-4110-b37a-d4dddf8ffdf2 to queue default (at_front=False)
+2026-02-17 14:42:19,880 - rq.queue - DEBUG - Pushed job [34mb1e80c2a-e030-4110-b37a-d4dddf8ffdf2[39;49;00m into [32mdefault[39;49;00m
+2026-02-17 14:43:15,957 - app.services.test_orchestrator - INFO - Created security test 5: Debug Test
+2026-02-17 14:43:15,972 - app.services.variant_generator - INFO - Generated 1 variants for prompt 20
+2026-02-17 14:43:15,982 - app.services.test_orchestrator - INFO - Prepared 1 model runs for test 5
+2026-02-17 14:43:15,989 - rq.queue - DEBUG - Enqueueing job dfb240c3-4b73-4b85-9ba2-2e6c5eb8c9ff to queue default (at_front=False)
+2026-02-17 14:43:15,990 - rq.queue - DEBUG - Pushed job [34mdfb240c3-4b73-4b85-9ba2-2e6c5eb8c9ff[39;49;00m into [32mdefault[39;49;00m
+2026-02-17 14:46:07,454 - app.services.test_orchestrator - INFO - Created security test 6: Live Test
+2026-02-17 14:46:07,464 - app.services.variant_generator - INFO - Generated 1 variants for prompt 21
+2026-02-17 14:46:07,469 - app.services.test_orchestrator - INFO - Prepared 1 model runs for test 6
+2026-02-17 14:46:07,473 - rq.queue - DEBUG - Enqueueing job f57ff2d3-b094-48c7-a1fd-9f8149b572a1 to queue default (at_front=False)
+2026-02-17 14:46:07,474 - rq.queue - DEBUG - Pushed job [34mf57ff2d3-b094-48c7-a1fd-9f8149b572a1[39;49;00m into [32mdefault[39;49;00m
+2026-02-17 14:47:03,870 - app.services.test_orchestrator - INFO - Created security test 7: Working Test
+2026-02-17 14:47:03,878 - app.services.variant_generator - INFO - Generated 1 variants for prompt 22
+2026-02-17 14:47:03,884 - app.services.test_orchestrator - INFO - Prepared 1 model runs for test 7
+2026-02-17 14:47:03,886 - rq.queue - DEBUG - Enqueueing job c2037b2c-5d72-4f2d-a374-34fe2d5b5ce5 to queue default (at_front=False)
+2026-02-17 14:47:03,887 - rq.queue - DEBUG - Pushed job [34mc2037b2c-5d72-4f2d-a374-34fe2d5b5ce5[39;49;00m into [32mdefault[39;49;00m
+2026-02-17 14:47:46,950 - app.core.logging - INFO - Shutting down
+2026-02-17 14:48:02,240 - asyncio - DEBUG - Using selector: EpollSelector
+2026-02-17 14:48:02,251 - app.core.logging - INFO - Starting up Enterprise AI Security Platform
+2026-02-17 14:48:02,252 - app.core.logging - INFO - Database tables created
+2026-02-17 14:48:02,252 - app.seed_data - INFO - Seeding attack scenarios...
+2026-02-17 14:48:02,266 - app.seed_data - INFO - Scenario S-001 already exists, skipping
+2026-02-17 14:48:02,267 - app.seed_data - INFO - Scenario S-002 already exists, skipping
+2026-02-17 14:48:02,267 - app.seed_data - INFO - Scenario S-003 already exists, skipping
+2026-02-17 14:48:02,267 - app.seed_data - INFO - Scenario S-004 already exists, skipping
+2026-02-17 14:48:02,268 - app.seed_data - INFO - Scenario S-005 already exists, skipping
+2026-02-17 14:48:02,268 - app.seed_data - INFO - Scenario seeding complete
+2026-02-17 14:48:06,885 - app.core.logging - INFO - Shutting down
+2026-02-17 14:48:13,433 - asyncio - DEBUG - Using selector: EpollSelector
+2026-02-17 14:48:13,443 - app.core.logging - INFO - Starting up Enterprise AI Security Platform
+2026-02-17 14:48:13,444 - app.core.logging - INFO - Database tables created
+2026-02-17 14:48:13,444 - app.seed_data - INFO - Seeding attack scenarios...
+2026-02-17 14:48:13,456 - app.seed_data - INFO - Scenario S-001 already exists, skipping
+2026-02-17 14:48:13,457 - app.seed_data - INFO - Scenario S-002 already exists, skipping
+2026-02-17 14:48:13,457 - app.seed_data - INFO - Scenario S-003 already exists, skipping
+2026-02-17 14:48:13,458 - app.seed_data - INFO - Scenario S-004 already exists, skipping
+2026-02-17 14:48:13,458 - app.seed_data - INFO - Scenario S-005 already exists, skipping
+2026-02-17 14:48:13,458 - app.seed_data - INFO - Scenario seeding complete
+2026-02-17 14:48:24,698 - app.services.test_orchestrator - INFO - Created security test 8: Sync Test
+2026-02-17 14:48:24,712 - app.services.variant_generator - INFO - Generated 1 variants for prompt 23
+2026-02-17 14:48:24,718 - app.services.test_orchestrator - INFO - Prepared 1 model runs for test 8
+2026-02-17 14:48:24,718 - app.api.routes.security_tests - INFO - Executing 1 jobs synchronously
+2026-02-17 14:48:49,378 - app.services.test_orchestrator - INFO - Created security test 9: Final Test
+2026-02-17 14:48:49,396 - app.services.variant_generator - INFO - Generated 1 variants for prompt 24
+2026-02-17 14:48:49,402 - app.services.test_orchestrator - INFO - Prepared 1 model runs for test 9
+2026-02-17 14:48:49,403 - app.api.routes.security_tests - INFO - Executing 1 jobs synchronously
+2026-02-17 14:48:50,493 - app.workers.model_execution - INFO - Executing model run 19 with ollama/llama3.2
+2026-02-17 14:48:50,550 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=30.0 socket_options=None
+2026-02-17 14:48:50,550 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7dafe841b410>
+2026-02-17 14:48:50,550 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-02-17 14:48:50,550 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-02-17 14:48:50,550 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-02-17 14:48:50,551 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-02-17 14:48:50,551 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-02-17 14:49:20,650 - httpcore.http11 - DEBUG - receive_response_headers.failed exception=ReadTimeout(TimeoutError('timed out'))
+2026-02-17 14:49:20,653 - httpcore.http11 - DEBUG - response_closed.started
+2026-02-17 14:49:20,654 - httpcore.http11 - DEBUG - response_closed.complete
+2026-02-17 14:49:20,654 - app.models.adapters.ollama_adapter - ERROR - Ollama API error: timed out
+2026-02-17 14:49:20,654 - app.workers.model_execution - ERROR - Error executing model run 19: timed out
+2026-02-17 14:49:20,662 - app.api.routes.security_tests - INFO - Job 0 completed: {'status': 'failed', 'error': 'timed out', 'model_run_id': 19}
+2026-02-17 14:49:20,663 - app.workers.model_execution - INFO - Executing model run 19 with ollama/llama3.2
+2026-02-17 14:49:20,696 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=30.0 socket_options=None
+2026-02-17 14:49:20,696 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7dafe8448710>
+2026-02-17 14:49:20,697 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-02-17 14:49:20,697 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-02-17 14:49:20,697 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-02-17 14:49:20,697 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-02-17 14:49:20,697 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-02-17 14:49:45,765 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Tue, 17 Feb 2026 19:49:45 GMT'), (b'Transfer-Encoding', b'chunked')])
+2026-02-17 14:49:45,767 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 200 OK"
+2026-02-17 14:49:45,767 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-02-17 14:49:45,768 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-02-17 14:49:45,768 - httpcore.http11 - DEBUG - response_closed.started
+2026-02-17 14:49:45,768 - httpcore.http11 - DEBUG - response_closed.complete
+2026-02-17 14:49:45,809 - app.services.test_orchestrator - INFO - Evaluated model run 19: risk=LOW
+2026-02-17 14:49:45,830 - app.services.test_orchestrator - INFO - Test 9 completed
+2026-02-17 14:49:45,830 - app.workers.model_execution - INFO - Completed model run 19
+2026-02-17 14:50:47,476 - asyncio - DEBUG - Using selector: EpollSelector
+2026-02-17 14:50:47,486 - app.core.logging - INFO - Starting up Enterprise AI Security Platform
+2026-02-17 14:50:47,488 - app.core.logging - INFO - Database tables created
+2026-02-17 14:50:47,488 - app.seed_data - INFO - Seeding attack scenarios...
+2026-02-17 14:50:47,501 - app.seed_data - INFO - Scenario S-001 already exists, skipping
+2026-02-17 14:50:47,502 - app.seed_data - INFO - Scenario S-002 already exists, skipping
+2026-02-17 14:50:47,503 - app.seed_data - INFO - Scenario S-003 already exists, skipping
+2026-02-17 14:50:47,503 - app.seed_data - INFO - Scenario S-004 already exists, skipping
+2026-02-17 14:50:47,504 - app.seed_data - INFO - Scenario S-005 already exists, skipping
+2026-02-17 14:50:47,504 - app.seed_data - INFO - Scenario seeding complete
+2026-02-17 14:50:47,505 - app.core.logging - INFO - Shutting down
+2026-02-17 14:51:29,275 - app.core.logging - INFO - Shutting down
+2026-02-17 14:51:53,405 - asyncio - DEBUG - Using selector: EpollSelector
+2026-02-17 14:51:53,414 - app.core.logging - INFO - Starting up Enterprise AI Security Platform
+2026-02-17 14:51:53,416 - app.core.logging - INFO - Database tables created
+2026-02-17 14:51:53,416 - app.seed_data - INFO - Seeding attack scenarios...
+2026-02-17 14:51:53,430 - app.seed_data - INFO - Scenario S-001 already exists, skipping
+2026-02-17 14:51:53,431 - app.seed_data - INFO - Scenario S-002 already exists, skipping
+2026-02-17 14:51:53,431 - app.seed_data - INFO - Scenario S-003 already exists, skipping
+2026-02-17 14:51:53,432 - app.seed_data - INFO - Scenario S-004 already exists, skipping
+2026-02-17 14:51:53,432 - app.seed_data - INFO - Scenario S-005 already exists, skipping
+2026-02-17 14:51:53,432 - app.seed_data - INFO - Scenario seeding complete
+2026-02-17 14:52:29,630 - app.services.test_orchestrator - INFO - Created security test 10: test1
+2026-02-17 14:52:29,645 - app.services.variant_generator - INFO - Generated 2 variants for prompt 25
+2026-02-17 14:52:29,655 - app.services.test_orchestrator - INFO - Prepared 2 model runs for test 10
+2026-02-17 14:52:29,656 - app.api.routes.security_tests - INFO - Executing 2 jobs synchronously
+2026-02-17 14:52:31,204 - app.workers.model_execution - INFO - Executing model run 20 with ollama/llama3
+2026-02-17 14:52:31,245 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=30.0 socket_options=None
+2026-02-17 14:52:31,246 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fa3b84a3ec0>
+2026-02-17 14:52:31,246 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-02-17 14:52:31,246 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-02-17 14:52:31,246 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-02-17 14:52:31,246 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-02-17 14:52:31,246 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-02-17 14:52:31,247 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 404, b'Not Found', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Tue, 17 Feb 2026 19:52:31 GMT'), (b'Content-Length', b'36')])
+2026-02-17 14:52:31,248 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-02-17 14:52:31,248 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-02-17 14:52:31,248 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-02-17 14:52:31,248 - httpcore.http11 - DEBUG - response_closed.started
+2026-02-17 14:52:31,248 - httpcore.http11 - DEBUG - response_closed.complete
+2026-02-17 14:52:31,249 - app.models.adapters.ollama_adapter - ERROR - Ollama API error: Client error '404 Not Found' for url 'http://localhost:11434/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-17 14:52:31,249 - app.workers.model_execution - ERROR - Error executing model run 20: Client error '404 Not Found' for url 'http://localhost:11434/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-17 14:52:31,255 - app.api.routes.security_tests - INFO - Job 0 completed: {'status': 'failed', 'error': "Client error '404 Not Found' for url 'http://localhost:11434/api/generate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404", 'model_run_id': 20}
+2026-02-17 14:52:31,255 - app.workers.model_execution - INFO - Executing model run 20 with ollama/llama3
+2026-02-17 14:52:31,288 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=30.0 socket_options=None
+2026-02-17 14:52:31,288 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fa3b3f4a750>
+2026-02-17 14:52:31,288 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-02-17 14:52:31,288 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-02-17 14:52:31,288 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-02-17 14:52:31,289 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-02-17 14:52:31,289 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-02-17 14:52:31,289 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 404, b'Not Found', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Tue, 17 Feb 2026 19:52:31 GMT'), (b'Content-Length', b'36')])
+2026-02-17 14:52:31,289 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-02-17 14:52:31,290 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-02-17 14:52:31,290 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-02-17 14:52:31,290 - httpcore.http11 - DEBUG - response_closed.started
+2026-02-17 14:52:31,290 - httpcore.http11 - DEBUG - response_closed.complete
+2026-02-17 14:52:31,290 - app.models.adapters.ollama_adapter - ERROR - Ollama API error: Client error '404 Not Found' for url 'http://localhost:11434/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-17 14:52:31,290 - app.workers.model_execution - ERROR - Error executing model run 20: Client error '404 Not Found' for url 'http://localhost:11434/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-17 14:52:31,297 - app.workers.model_execution - INFO - Executing model run 21 with ollama/llama3
+2026-02-17 14:52:31,323 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=30.0 socket_options=None
+2026-02-17 14:52:31,324 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fa3b3f49f70>
+2026-02-17 14:52:31,324 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-02-17 14:52:31,325 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-02-17 14:52:31,325 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-02-17 14:52:31,325 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-02-17 14:52:31,325 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-02-17 14:52:31,325 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 404, b'Not Found', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Tue, 17 Feb 2026 19:52:31 GMT'), (b'Content-Length', b'36')])
+2026-02-17 14:52:31,326 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-02-17 14:52:31,326 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-02-17 14:52:31,326 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-02-17 14:52:31,326 - httpcore.http11 - DEBUG - response_closed.started
+2026-02-17 14:52:31,326 - httpcore.http11 - DEBUG - response_closed.complete
+2026-02-17 14:52:31,326 - app.models.adapters.ollama_adapter - ERROR - Ollama API error: Client error '404 Not Found' for url 'http://localhost:11434/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-17 14:52:31,326 - app.workers.model_execution - ERROR - Error executing model run 21: Client error '404 Not Found' for url 'http://localhost:11434/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-17 14:52:31,331 - app.workers.model_execution - INFO - Executing model run 21 with ollama/llama3
+2026-02-17 14:52:31,355 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=30.0 socket_options=None
+2026-02-17 14:52:31,356 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fa3b3f4b530>
+2026-02-17 14:52:31,356 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-02-17 14:52:31,356 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-02-17 14:52:31,356 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-02-17 14:52:31,356 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-02-17 14:52:31,356 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-02-17 14:52:31,356 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 404, b'Not Found', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Tue, 17 Feb 2026 19:52:31 GMT'), (b'Content-Length', b'36')])
+2026-02-17 14:52:31,356 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-02-17 14:52:31,357 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-02-17 14:52:31,357 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-02-17 14:52:31,357 - httpcore.http11 - DEBUG - response_closed.started
+2026-02-17 14:52:31,357 - httpcore.http11 - DEBUG - response_closed.complete
+2026-02-17 14:52:31,357 - app.models.adapters.ollama_adapter - ERROR - Ollama API error: Client error '404 Not Found' for url 'http://localhost:11434/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-17 14:52:31,357 - app.workers.model_execution - ERROR - Error executing model run 21: Client error '404 Not Found' for url 'http://localhost:11434/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-17 14:52:31,363 - app.api.routes.security_tests - INFO - Job 1 completed: {'status': 'failed', 'error': "Client error '404 Not Found' for url 'http://localhost:11434/api/generate'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404", 'model_run_id': 21}
+2026-02-17 14:52:31,363 - app.workers.model_execution - INFO - Executing model run 20 with ollama/llama3
+2026-02-17 14:52:31,402 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=30.0 socket_options=None
+2026-02-17 14:52:31,403 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fa3b3f70470>
+2026-02-17 14:52:31,403 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-02-17 14:52:31,403 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-02-17 14:52:31,403 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-02-17 14:52:31,403 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-02-17 14:52:31,403 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-02-17 14:52:31,404 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 404, b'Not Found', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Tue, 17 Feb 2026 19:52:31 GMT'), (b'Content-Length', b'36')])
+2026-02-17 14:52:31,404 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-02-17 14:52:31,404 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-02-17 14:52:31,404 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-02-17 14:52:31,404 - httpcore.http11 - DEBUG - response_closed.started
+2026-02-17 14:52:31,404 - httpcore.http11 - DEBUG - response_closed.complete
+2026-02-17 14:52:31,404 - app.models.adapters.ollama_adapter - ERROR - Ollama API error: Client error '404 Not Found' for url 'http://localhost:11434/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-17 14:52:31,404 - app.workers.model_execution - ERROR - Error executing model run 20: Client error '404 Not Found' for url 'http://localhost:11434/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-17 14:52:31,409 - app.workers.model_execution - INFO - Executing model run 21 with ollama/llama3
+2026-02-17 14:52:31,439 - httpcore.connection - DEBUG - connect_tcp.started host='localhost' port=11434 local_address=None timeout=30.0 socket_options=None
+2026-02-17 14:52:31,440 - httpcore.connection - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x7fa3b3f70c20>
+2026-02-17 14:52:31,440 - httpcore.http11 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2026-02-17 14:52:31,440 - httpcore.http11 - DEBUG - send_request_headers.complete
+2026-02-17 14:52:31,440 - httpcore.http11 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2026-02-17 14:52:31,440 - httpcore.http11 - DEBUG - send_request_body.complete
+2026-02-17 14:52:31,440 - httpcore.http11 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2026-02-17 14:52:31,440 - httpcore.http11 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 404, b'Not Found', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Tue, 17 Feb 2026 19:52:31 GMT'), (b'Content-Length', b'36')])
+2026-02-17 14:52:31,441 - httpx - INFO - HTTP Request: POST http://localhost:11434/api/generate "HTTP/1.1 404 Not Found"
+2026-02-17 14:52:31,441 - httpcore.http11 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2026-02-17 14:52:31,441 - httpcore.http11 - DEBUG - receive_response_body.complete
+2026-02-17 14:52:31,441 - httpcore.http11 - DEBUG - response_closed.started
+2026-02-17 14:52:31,441 - httpcore.http11 - DEBUG - response_closed.complete
+2026-02-17 14:52:31,441 - app.models.adapters.ollama_adapter - ERROR - Ollama API error: Client error '404 Not Found' for url 'http://localhost:11434/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-17 14:52:31,441 - app.workers.model_execution - ERROR - Error executing model run 21: Client error '404 Not Found' for url 'http://localhost:11434/api/generate'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
