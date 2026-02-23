@@ -37,3 +37,6 @@ security-report-*.json
 # OS
 .DS_Store
 Thumbs.db
+
+# Agent notes
+AGENTS.md
