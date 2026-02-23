@@ -15,7 +15,7 @@ const AVAILABLE_MODELS = [
   { adapter: 'openai', model: 'gpt-3.5-turbo', name: 'GPT-3.5 Turbo', type: 'public' },
   { adapter: 'anthropic', model: 'claude-3-opus-20240229', name: 'Claude 3 Opus', type: 'public' },
   { adapter: 'anthropic', model: 'claude-3-sonnet', name: 'Claude 3 Sonnet', type: 'public' },
-  { adapter: 'google', model: 'gemini-1.5-pro', name: 'Gemini Pro', type: 'public' },
+  { adapter: 'google', model: 'gemini-pro', name: 'Gemini Pro', type: 'public' },
   { adapter: 'ollama', model: 'llama3.2', name: 'Llama 3.2 (Local)', type: 'local' },
   { adapter: 'ollama', model: 'mistral', name: 'Mistral (Local)', type: 'local' }
 ]
@@ -52,8 +52,10 @@ function SecurityTestConfig() {
     try {
       const response = await securityTestAPI.getScenarios()
       setScenarios(response.data.scenarios || [])
+      setError(null)
     } catch (err) {
       console.error('Failed to load scenarios:', err)
+      setError('Unable to connect to backend. Please make sure the backend server is running on port 8000.')
     }
   }
 
@@ -144,7 +146,31 @@ function SecurityTestConfig() {
       case 1:
         return (
           <Box sx={{ mt: 2 }}>
-            <FormControl fullWidth margin="normal">
+            {error && (
+              <Alert severity="error" sx={{ mb: 2 }}>
+                <Typography variant="h6" gutterBottom>
+                  Backend Connection Error
+                </Typography>
+                <Typography>{error}</Typography>
+                <Button 
+                  variant="outlined" 
+                  size="small" 
+                  sx={{ mt: 1 }}
+                  onClick={loadScenarios}
+                >
+                  Retry Connection
+                </Button>
+              </Alert>
+            )}
+
+            {scenarios.length === 0 && !error && (
+              <Alert severity="warning" sx={{ mb: 2 }}>
+                <Typography>Loading attack scenarios...</Typography>
+                <CircularProgress size={20} sx={{ mt: 1 }} />
+              </Alert>
+            )}
+
+            <FormControl fullWidth margin="normal" disabled={scenarios.length === 0}>
               <InputLabel>Attack Scenario</InputLabel>
               <Select
                 value={selectedScenario}

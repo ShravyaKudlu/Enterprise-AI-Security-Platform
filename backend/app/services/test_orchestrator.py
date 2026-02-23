@@ -260,6 +260,8 @@ class TestOrchestrator:
 
     def get_test_progress(self, test_id: int) -> Dict:
         """Get progress information for a test."""
+        from datetime import datetime
+
         test = self.db.query(SecurityTest).filter(SecurityTest.id == test_id).first()
 
         if not test:
@@ -299,6 +301,18 @@ class TestOrchestrator:
 
         percent_complete = (completed_runs / total_runs * 100) if total_runs > 0 else 0
 
+        # Calculate time estimates
+        elapsed_seconds = 0
+        avg_time_per_run = 10  # Default 10 seconds per run
+        estimated_remaining_seconds = 0
+
+        if test.created_at:
+            elapsed_seconds = (datetime.utcnow() - test.created_at).total_seconds()
+            if completed_runs > 0:
+                avg_time_per_run = elapsed_seconds / completed_runs
+                remaining_runs = total_runs - completed_runs
+                estimated_remaining_seconds = remaining_runs * avg_time_per_run
+
         return {
             "test_id": test_id,
             "status": test.status,
@@ -307,6 +321,9 @@ class TestOrchestrator:
                 "completed_runs": completed_runs,
                 "failed_runs": failed_runs,
                 "percent_complete": round(percent_complete, 1),
+                "elapsed_seconds": round(elapsed_seconds, 1),
+                "estimated_remaining_seconds": round(estimated_remaining_seconds, 1),
+                "avg_time_per_run": round(avg_time_per_run, 1),
             },
             "results_summary": {
                 "runs_completed": completed_runs,

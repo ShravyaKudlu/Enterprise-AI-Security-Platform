@@ -1,5 +1,9 @@
 from typing import List, Optional
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 
 class Settings:
@@ -29,7 +33,7 @@ class Settings:
     # Model Configuration
     OPENAI_MODEL: str = os.getenv("OPENAI_MODEL", "gpt-4")
     ANTHROPIC_MODEL: str = os.getenv("ANTHROPIC_MODEL", "claude-3-opus-20240229")
-    GOOGLE_MODEL: str = os.getenv("GOOGLE_MODEL", "gemini-1.5-pro")
+    GOOGLE_MODEL: str = os.getenv("GOOGLE_MODEL", "gemini-pro")
     OLLAMA_BASE_URL: str = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
     OLLAMA_MODEL: str = os.getenv("OLLAMA_MODEL", "llama3")
 

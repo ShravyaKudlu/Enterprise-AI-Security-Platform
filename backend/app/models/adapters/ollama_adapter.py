@@ -14,7 +14,7 @@ class OllamaAdapter(ModelAdapter):
     def __init__(self, model: Optional[str] = None, base_url: Optional[str] = None):
         self.model = model or settings.OLLAMA_MODEL
         self.base_url = base_url or settings.OLLAMA_BASE_URL
-        self.client = httpx.Client(timeout=30.0)
+        self.client = httpx.Client(timeout=120.0)
 
     def get_model_info(self) -> Dict[str, str]:
         return {"model_name": self.model, "model_type": "local", "vendor": "ollama"}

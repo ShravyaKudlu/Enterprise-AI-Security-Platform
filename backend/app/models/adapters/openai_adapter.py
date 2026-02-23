@@ -42,7 +42,7 @@ class OpenAIAdapter(ModelAdapter):
                     messages=[{"role": "user", "content": prompt}],
                     max_tokens=params.get("max_tokens", 500),
                     temperature=params.get("temperature", 0.7),
-                    timeout=30,
+                    timeout=120,
                 )
 
                 response_time_ms = int((time.time() - start_time) * 1000)

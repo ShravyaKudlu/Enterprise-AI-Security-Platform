@@ -75,30 +75,44 @@ def run_security_test(request: RunSecurityTestRequest, db: Session = Depends(get
         # Prepare jobs
         jobs = orchestrator.prepare_test_execution(test.id)
 
-        # Execute jobs synchronously (bypass RQ for now)
+        # Execute jobs synchronously with progress tracking
         import logging
+        import time
 
         logger = logging.getLogger(__name__)
         logger.info(f"Executing {len(jobs)} jobs synchronously")
 
         from app.workers.model_execution import execute_model_run
+        from app.models import SecurityTest as ST, TestStatus
+
+        # Update test status to running
+        test.status = TestStatus.RUNNING
+        db.commit()
 
         job_ids = []
+        start_time = time.time()
+
         for i, job in enumerate(jobs):
             job_data = {**job, "test_id": test.id}
+
+            # Log progress
+            elapsed = time.time() - start_time
+            avg_time_per_job = elapsed / (i + 1) if i > 0 else 30
+            remaining_jobs = len(jobs) - i - 1
+            estimated_remaining = remaining_jobs * avg_time_per_job
+
+            logger.info(
+                f"Progress: {i + 1}/{len(jobs)} jobs completed. Est. remaining: {estimated_remaining:.0f}s"
+            )
+
             # Run synchronously
             try:
                 result = execute_model_run(job_data)
                 job_ids.append(f"sync-job-{i}")
-                logger.info(f"Job {i} completed: {result}")
+                logger.info(f"Job {i + 1} completed successfully")
             except Exception as e:
-                logger.error(f"Job {i} failed: {e}")
+                logger.error(f"Job {i + 1} failed: {e}")
                 job_ids.append(f"sync-job-{i}-failed")
-
-            for i, job in enumerate(jobs):
-                job_data = {**job, "test_id": test.id}
-                result = execute_model_run(job_data)
-                job_ids.append(f"sync-job-{i}")
 
         # Estimate time: ~30 seconds per model run
         estimated_minutes = max(1, len(jobs) * 30 // 60)
@@ -166,6 +180,9 @@ def get_test_results(test_id: int, db: Session = Depends(get_db)):
                 "model_type": model_run.model_type,
                 "status": model_run.status,
                 "technique": variant.technique if variant else None,
+                "response_text": model_run.response_text
+                if model_run.response_text
+                else None,
                 "response_preview": model_run.response_text[:200]
                 if model_run.response_text
                 else None,
